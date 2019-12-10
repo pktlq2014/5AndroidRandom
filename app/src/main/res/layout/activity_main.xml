@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="AAA"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/butTon1"
+        android:text="INPUT"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_below="@id/butTon1"
+        android:layout_centerHorizontal="true"
+        android:hint="nhập cái gì đó"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@id/editText1"
+        android:layout_centerHorizontal="true"
+        android:hint="nhập cái gì đó"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/butTon2"
+        android:text="INPUT"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText2"
+        />
+</RelativeLayout>
